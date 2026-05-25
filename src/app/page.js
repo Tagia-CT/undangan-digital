@@ -163,7 +163,7 @@ function IsiUndangan({ namaTamu, tamuId }) {
       <div className="flex-1 max-w-sm flex flex-col items-center">
         {/* Diubah: h-64 dan rounded-2xl */}
         <div className="w-48 h-64 rounded-2xl border-[6px] border-white/40 shadow-lg overflow-hidden mb-6">
-          <img src="/Anggia.jpeg" alt="Mempelai Pria" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          <img src="/anggia.jpeg" alt="Mempelai Pria" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
         <h3 className="text-3xl font-serif font-bold text-slate-950 mb-2">Tawarikh Anggia Cristopher</h3>
         <p className="text-slate-800 font-medium leading-relaxed drop-shadow-sm">Putra dari<br />Bapak Udang & Ibu Suryani</p>
@@ -175,7 +175,7 @@ function IsiUndangan({ namaTamu, tamuId }) {
       <div className="flex-1 max-w-sm flex flex-col items-center">
         {/* Diubah: h-64 dan rounded-2xl */}
         <div className="w-48 h-64 rounded-2xl border-[6px] border-white/40 shadow-lg overflow-hidden mb-6">
-          <img src="/Risu.jpeg" alt="Mempelai Wanita" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          <img src="/risu.jpeg" alt="Mempelai Wanita" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
         <h3 className="text-3xl font-serif font-bold text-slate-950 mb-2">Ayunda Risu</h3>
         <p className="text-slate-800 font-medium leading-relaxed drop-shadow-sm">Putri dari<br />Bapak Yago & Ibu Moona</p>
