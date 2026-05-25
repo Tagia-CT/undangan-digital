@@ -196,7 +196,7 @@ function IsiUndangan({ namaTamu, tamuId }) {
           <div className="glass-panel-light p-10 text-center flex flex-col items-center">
             {/* Border bawah tulisan diubah menjadi tipis dan semi transparan */}
             <h3 className="text-3xl font-serif font-bold mb-6 text-slate-950 border-b border-black/20 pb-4 w-full">Pemberkatan</h3>
-            <p className="font-bold text-slate-900 text-xl mb-2 drop-shadow-sm">Sabtu, 14 Februari 2026</p>
+            <p className="font-bold text-slate-900 text-xl mb-2 drop-shadow-sm">Senim, 14 September 2026</p>
             <p className="text-slate-800 mb-8 font-medium">Pukul 10.00 WIB - 12.00 WIB</p>
             <p className="text-sm text-slate-900 mb-8 leading-relaxed font-medium">
               <strong className="text-lg block mb-1 font-bold">Katedral Kristus Raja Sintang</strong>
@@ -207,8 +207,8 @@ function IsiUndangan({ namaTamu, tamuId }) {
 
           <div className="glass-panel-light p-10 text-center flex flex-col items-center">
             <h3 className="text-3xl font-serif font-bold mb-6 text-slate-950 border-b border-black/20 pb-4 w-full">Resepsi</h3>
-            <p className="font-bold text-slate-900 text-xl mb-2 drop-shadow-sm">Sabtu, 14 Februari 2026</p>
-            <p className="text-slate-800 mb-8 font-medium">Pukul 13.00 WIB - Selesai</p>
+            <p className="font-bold text-slate-900 text-xl mb-2 drop-shadow-sm">Senin, 14 September 2026</p>
+            <p className="text-slate-800 mb-8 font-medium">Pukul 18.00 WIB - Selesai</p>
             <p className="text-sm text-slate-900 mb-8 leading-relaxed font-medium">
               <strong className="text-lg block mb-1 font-bold">Gedung Balai Kenyalang Sintang</strong>
               Jl. Lintas Melawi, Sintang
@@ -356,7 +356,7 @@ function IsiUndangan({ namaTamu, tamuId }) {
           <h4 className="font-bold tracking-[0.4em] text-lg drop-shadow-sm">T.A.C</h4>
           <p className="text-xs opacity-70 uppercase tracking-widest">Design & Development</p>
           <div className="flex gap-6 mt-2">
-            <a href="https://wa.me/081253401297" className="text-white hover:text-gray-300 font-medium drop-shadow-sm" style={{textDecoration: 'none'}}>WhatsApp</a>
+            <a href="https://wa.me/6281253401297" className="text-white hover:text-gray-300 font-medium drop-shadow-sm" style={{textDecoration: 'none'}}>WhatsApp</a>
             <a href="https://www.instagram.com/tagia_ct" className="text-white hover:text-gray-300 font-medium drop-shadow-sm" style={{textDecoration: 'none'}}>Instagram</a>
             <a href="https://tac.dennyjcs.com/" className="text-white hover:text-gray-300 font-medium drop-shadow-sm" style={{textDecoration: 'none'}}>Website</a>
           </div>
