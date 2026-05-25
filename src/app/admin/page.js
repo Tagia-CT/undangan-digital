@@ -109,7 +109,7 @@ export default function AdminDashboard() {
   };
 
   const handleCopyLink = (idTamu) => {
-    const link = `http://localhost:3000/?id=${idTamu}`;
+    const link = `https://undangan-digital-kappa.vercel.app/?id=${idTamu}`;
     navigator.clipboard.writeText(link);
     setCopiedId(idTamu);
     setTimeout(() => setCopiedId(null), 2000);
