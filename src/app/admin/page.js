@@ -229,8 +229,7 @@ export default function AdminDashboard() {
                         <td className="p-4 font-medium">{tamu.nama}</td>
                         <td className="p-4">
                           <div className="flex items-center justify-center gap-2">
-                            <input type="text" readOnly value={`http://localhost:3000/?id=${tamu.id}`} className="w-20 md:w-28 text-blue-600 bg-transparent outline-none cursor-text select-all truncate" />
-                            <button onClick={() => handleCopyLink(tamu.id)} className="p-2 hover:bg-gray-200 rounded-md transition-colors flex-shrink-0 cursor-pointer border-none bg-transparent">
+                            <input type="text" readOnly value={`https://undangan-digital-kappa.vercel.app/?id=${tamu.id}`} className="w-20 md:w-28 text-blue-600 bg-transparent outline-none cursor-text select-all truncate" />                            <button onClick={() => handleCopyLink(tamu.id)} className="p-2 hover:bg-gray-200 rounded-md transition-colors flex-shrink-0 cursor-pointer border-none bg-transparent">
                               {copiedId === tamu.id ? (
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>
                               ) : (
