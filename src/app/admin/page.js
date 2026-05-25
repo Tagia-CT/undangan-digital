@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 import { collection, addDoc, onSnapshot, query, doc, deleteDoc, orderBy } from "firebase/firestore";
 import { db } from "../firebase";
 
-// === PENGATURAN KATA SANDI ADMIN ===
-// Silakan ganti "Sintang2026" dengan kata sandi rahasia yang Anda inginkan
+
 const PASSWORD_RAHASIA = "Sintang2026"; 
 
 export default function AdminDashboard() {
