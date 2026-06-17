@@ -177,8 +177,8 @@ function IsiUndangan({ namaTamu, tamuId }) {
         <div className="w-48 h-64 rounded-2xl border-[6px] border-white/40 shadow-lg overflow-hidden mb-6">
           <img src="/risu.jpeg" alt="Mempelai Wanita" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
-        <h3 className="text-3xl font-serif font-bold text-slate-950 mb-2">Ayunda Risu</h3>
-        <p className="text-slate-800 font-medium leading-relaxed drop-shadow-sm">Putri dari<br />Bapak Yago & Ibu Moona</p>
+        <h3 className="text-3xl font-serif font-bold text-slate-950 mb-2">Ely Aulia</h3>
+        <p className="text-slate-800 font-medium leading-relaxed drop-shadow-sm">Putri dari<br />Bapak Alvon & Ibu Lirian</p>
       </div>
 
     </div>
@@ -348,7 +348,7 @@ function IsiUndangan({ namaTamu, tamuId }) {
           </p>
           <div className="mt-8 flex flex-col items-center gap-2">
             <p className="text-sm uppercase tracking-[0.3em] opacity-80 drop-shadow-sm">Kami yang berbahagia</p>
-            <h3 className="text-3xl font-serif font-bold mt-2 drop-shadow-lg">Anggia & Ayunda</h3>
+            <h3 className="text-3xl font-serif font-bold mt-2 drop-shadow-lg">Anggia & Aulia</h3>
           </div>
         </div>
 
@@ -456,7 +456,7 @@ function CoverContent() {
             className="text-6xl md:text-7xl font-bold text-right leading-[0.7]"
             style={{ color: "white", textShadow: "2px 4px 8px rgba(0,0,0,1)" }}
           >
-            Ayunda
+            Aulia
           </h1>
           
         </div>
