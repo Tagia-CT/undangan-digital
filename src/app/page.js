@@ -251,8 +251,20 @@ function IsiUndangan({ namaTamu, tamuId }) {
 
               {kehadiran === "Hadir" && (
                 <div className="flex flex-col gap-2">
-                  <label className="text-sm font-bold text-slate-900 drop-shadow-sm">Jumlah orang yang hadir</label>
-                  <input type="number" min="1" value={jumlah} onChange={(e) => setJumlah(e.target.value)} className="border border-white/60 rounded-lg p-4 bg-white/50 text-slate-900 font-bold backdrop-blur-sm shadow-inner outline-none" required />
+                  <label className="text-sm font-bold text-slate-900 drop-shadow-sm">Jumlah orang yang hadir (Maks. 10)</label>
+                  <input 
+                    type="number" 
+                    min="1" 
+                    max="10" 
+                    value={jumlah} 
+                    onChange={(e) => {
+                      let val = e.target.value;
+                      if (val > 10) val = 10;
+                      setJumlah(val);
+                    }} 
+                    className="border border-white/60 rounded-lg p-4 bg-white/50 text-slate-900 font-bold backdrop-blur-sm shadow-inner outline-none" 
+                    required 
+                  />
                 </div>
               )}
 
